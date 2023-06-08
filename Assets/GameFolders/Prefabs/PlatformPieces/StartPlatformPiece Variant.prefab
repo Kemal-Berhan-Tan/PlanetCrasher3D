@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -7.5
       objectReference: {fileID: 0}
+    - target: {fileID: 504168512, guid: 04d248d0c1c95a240907628451b16902, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 622fec3febbf99646a778393bc6f8688, type: 2}
     - target: {fileID: 8901466046983654410, guid: 04d248d0c1c95a240907628451b16902, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -61,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8901466046983654411, guid: 04d248d0c1c95a240907628451b16902, type: 3}
       propertyPath: m_Name
-      value: StartPlatformPiece
+      value: StartPlatformPiece Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8901466047077734321, guid: 04d248d0c1c95a240907628451b16902, type: 3}
       propertyPath: m_LocalPosition.z

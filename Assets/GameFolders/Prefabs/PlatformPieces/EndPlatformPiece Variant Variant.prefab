@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: -0.5, z: 7.5}
   m_LocalScale: {x: 15, y: 1, z: 15}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4275175146340259416}
   m_RootOrder: 0
@@ -52,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -60,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5de8e31d9beecac45b3d2ffdf13a7ed5, type: 2}
+  - {fileID: 2100000, guid: 622fec3febbf99646a778393bc6f8688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6211633930656088564, guid: ba11a83d3b9852f429e29832bbd51ff3, type: 3}
       propertyPath: m_Name
-      value: EndPlatformPiece Variant
+      value: EndPlatformPiece Variant Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6211633930656088565, guid: ba11a83d3b9852f429e29832bbd51ff3, type: 3}
       propertyPath: m_RootOrder
